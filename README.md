@@ -1,2 +1,3 @@
 # Ecommerce-frontend-design.
-web site design
+code Flow
+Header → Menu → Breadcrumb → Sidebar + Products → Newsletter → Footer
