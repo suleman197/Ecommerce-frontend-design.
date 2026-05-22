@@ -305,3 +305,272 @@ body {
 .view-icons span:hover {
   color: #007bff;
 }
+
+/* product part */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Product List Container */
+.product-list {
+  width: 1281px;
+  height: 1308px;
+  background-color: #fff;
+  position: absolute;
+  top: 289px;
+  left: 323px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column; /* single column */
+  gap: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+}
+
+/* Product Card */
+.product-card {
+  display: flex;
+  align-items: flex-start;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 6px;
+  background-color: #fafafa;
+}
+
+.product-card img {
+  width: 180px;
+  height: auto;
+  border-radius: 4px;
+  margin-right: 15px;
+}
+
+.details {
+  flex: 1;
+}
+
+.details h3 {
+  font-size: 16px;
+  margin: 5px 0;
+  color: #333;
+}
+
+.price {
+  font-size: 15px;
+  color: #007bff;
+  margin: 5px 0;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #999;
+  margin-left: 8px;
+}
+
+.info {
+  font-size: 13px;
+  color: #555;
+  margin: 5px 0;
+}
+
+.desc {
+  font-size: 12px;
+  color: #666;
+  margin: 8px 0;
+}
+
+.details-btn {
+  padding: 6px 12px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.details-btn:hover {
+  background-color: #0056b3;
+}
+
+
+/* newpaper wla part */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Newsletter Section */
+.newsletter {
+  width: 1508px;
+  height: 190px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  position: absolute;
+  top: 1607px;
+  opacity: 1;
+  text-align: center;
+  padding: 29px;
+  margin-left: 20px;
+}
+
+.newsletter h2 {
+  margin: 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.newsletter p {
+  margin: 10px 0 20px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Subscribe Box */
+.subscribe-box {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.subscribe-box .icon {
+  padding: 8px;
+  background-color: #f0f0f0;
+}
+
+.subscribe-box input {
+  padding: 8px;
+  border: none;
+  outline: none;
+  width: 250px;
+}
+
+.subscribe-box button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.subscribe-box button:hover {
+  background-color: #0056b3;
+}
+
+/* css for footer */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Footer Container */
+.footer {
+  width: 1686px;
+  height: 144px;
+  background-color: #ffffff;
+  border-top: 1px solid #ccc;
+  position: absolute;
+  top: 1860px;
+  opacity: 1;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+/* Left Section */
+.footer-left {
+  width: 25%;
+}
+.footer-left .logo {
+  font-size: 20px;
+  color: #007bff;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.footer-left p {
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 15px;
+}
+.social-icons a {
+  margin-right: 10px;
+  font-size: 13px;
+  color: #007bff;
+  text-decoration: none;
+}
+.social-icons a:hover {
+  text-decoration: underline;
+}
+
+/* Center Section */
+.footer-center {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+.footer-center .column h4 {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #333;
+}
+.footer-center .column a {
+  display: block;
+  font-size: 13px;
+  color: #555;
+  text-decoration: none;
+  margin-bottom: 6px;
+}
+.footer-center .column a:hover {
+  color: #007bff;
+}
+
+/* Right Section */
+.footer-right {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.footer-right a {
+  display: block;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.footer-right a:hover {
+  background-color: #333;
+}
+
+/* Bottom Bar */
+.footer-bottom {
+  width: 1618px;
+  background-color: #f8f8f8;
+  border-top: 1px solid #ccc;
+  position: absolute;
+  top: 2035px; /* 2022 + 324 */
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  margin-left: 0px;
+}
+.footer-bottom p {
+  margin: 0;
+  font-size: 12px;
+  color: #555;
+}
+.footer-bottom .language {
+  font-size: 12px;
+  color: #333;
+}
+
